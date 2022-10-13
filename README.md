@@ -35,8 +35,6 @@ X_ = pca.inverse_transform(X_transformed) # (16, 5) -> (16, 10)
 X_ = pca.approximate(X) # (16, 10) -> (16, 10)
 ```
 
-When the number of features exceed the number of samples, the model uses a transposed decomposition for efficiency.
-
 ## Experiments
 
 Experiments are located in the `experiments/` folder.
